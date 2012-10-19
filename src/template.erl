@@ -1,6 +1,6 @@
 -module(template).
 
--export([test/0]).
+-export([expand/2, test/0]).
 -import(template_dict,[new/0,add_value/3,add_section/3,add_include/4, lookup/2,merge_section_dict/2]).	
 
 expand(Template, Dict)->
