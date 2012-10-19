@@ -1,0 +1,12 @@
+{application, erlang-template,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {modules,[template,template_dict]},
+  {env, []}
+ ]}.
