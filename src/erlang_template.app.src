@@ -1,4 +1,4 @@
-{application, erlang-template,
+{application, erlang_template,
  [
   {description, ""},
   {vsn, "1"},
@@ -7,6 +7,5 @@
                   kernel,
                   stdlib
                  ]},
-  {modules,[template,template_dict]},
   {env, []}
  ]}.
